@@ -1,0 +1,20 @@
+{
+	"node": "n8n-nodes-base.redis-lock",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.n8n.io/integrations/builtin/credentials/redis/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Why this Product Manager loves workflow automation with n8n",
+				"icon": "🧠",
+				"url": "https://n8n.io/blog/why-this-product-manager-loves-workflow-automation-with-n8n/"
+			}
+		]
+	}
+}

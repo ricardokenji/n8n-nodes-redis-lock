@@ -1,19 +1,19 @@
 {
-  "name": "n8n-nodes-<...>",
+  "name": "n8n-nodes-redis-lock",
   "version": "0.1.0",
-  "description": "",
+  "description": "Uses redis for concurrency control with lock",
   "keywords": [
     "n8n-community-node-package"
   ],
   "license": "MIT",
   "homepage": "",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "Kenji",
+    "email": "ricardokenjit@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/<...>/n8n-nodes-<...>.git"
+    "url": "https://github.com/ricardokenji/n8n-nodes-redis-lock.git"
   },
   "engines": {
     "node": ">=18.10",
@@ -54,5 +54,10 @@
   },
   "peerDependencies": {
     "n8n-workflow": "*"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.17.16",
+    "lodash": "^4.17.21",
+    "redis": "^4.7.0"
   }
 }
